@@ -1,0 +1,16 @@
+{
+  "name": "diy",
+  "version": "1.0.0",
+  "description": "Support for the DIY tutor app",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start"
+  },
+  "author": "",
+  "license": "ISC"
+}
